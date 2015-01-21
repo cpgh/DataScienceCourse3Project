@@ -1,0 +1,105 @@
+Code Book for R Data Frame in Coursera Data Science Project		
+Getting and Cleaning Data		
+dataFileCOMBINED.MEAN Dataframe		
+		
+Comments:		
+   - The numeric variables represents the mean value of either a mean or a standard deviation aggregated by activity and subject.		
+"   - Variables with a prefix of t represent a time value, captured at a constant rate of 50 Hz"		
+   - Variables with a prefix of f represent a Fast Fourier Transform (FFT) value		
+"   - Varialbes with a suffix of x, y, or z, represent 3-axial movement direction"		
+"   - Mean aggregate variables are labled as such, whereas ""std"" is used for Standard Deviation"		
+    - Acc abbreviation is acceleration		
+    - Freq abbreviation is frequency		
+    - Gryo abbreviation is gyroscopic measurement of angular velocity		
+		
+		
+		
+Field Name	Type	Description
+Subject	Factor	ID for each individual volunteer
+activityName	Factor	Description of the activities the volunteers were performing
+t.BodyAcc mean X	Numeric	See above comments
+t.BodyAcc mean Y	Numeric	See above comments
+t.BodyAcc mean Z	Numeric	See above comments
+t.GravityAcc mean X	Numeric	See above comments
+t.GravityAcc mean Y	Numeric	See above comments
+t.GravityAcc mean Z	Numeric	See above comments
+t.BodyAccJerk mean X	Numeric	See above comments
+t.BodyAccJerk mean Y	Numeric	See above comments
+t.BodyAccJerk mean Z	Numeric	See above comments
+t.BodyGyro mean X	Numeric	See above comments
+t.BodyGyro mean Y	Numeric	See above comments
+t.BodyGyro mean Z	Numeric	See above comments
+t.BodyGyroJerk mean X	Numeric	See above comments
+t.BodyGyroJerk mean Y	Numeric	See above comments
+t.BodyGyroJerk mean Z	Numeric	See above comments
+t.BodyAccMag mean	Numeric	See above comments
+t.GravityAccMag mean	Numeric	See above comments
+t.BodyAccJerkMag mean	Numeric	See above comments
+t.BodyGyroMag mean	Numeric	See above comments
+t.BodyGyroJerkMag mean	Numeric	See above comments
+f.BodyAcc mean X	Numeric	See above comments
+f.BodyAcc mean Y	Numeric	See above comments
+f.BodyAcc mean Z	Numeric	See above comments
+f.BodyAcc meanFreq X	Numeric	See above comments
+f.BodyAcc meanFreq Y	Numeric	See above comments
+f.BodyAcc meanFreq Z	Numeric	See above comments
+f.BodyAccJerk mean X	Numeric	See above comments
+f.BodyAccJerk mean Y	Numeric	See above comments
+f.BodyAccJerk mean Z	Numeric	See above comments
+f.BodyAccJerk meanFreq X	Numeric	See above comments
+f.BodyAccJerk meanFreq Y	Numeric	See above comments
+f.BodyAccJerk meanFreq Z	Numeric	See above comments
+f.BodyGyro mean X	Numeric	See above comments
+f.BodyGyro mean Y	Numeric	See above comments
+f.BodyGyro mean Z	Numeric	See above comments
+f.BodyGyro meanFreq X	Numeric	See above comments
+f.BodyGyro meanFreq Y	Numeric	See above comments
+f.BodyGyro meanFreq Z	Numeric	See above comments
+f.BodyAccMag mean	Numeric	See above comments
+f.BodyAccMag meanFreq	Numeric	See above comments
+f.BodyBodyAccJerkMag mean	Numeric	See above comments
+f.BodyBodyAccJerkMag meanFreq	Numeric	See above comments
+f.BodyBodyGyroMag mean	Numeric	See above comments
+f.BodyBodyGyroMag meanFreq	Numeric	See above comments
+f.BodyBodyGyroJerkMag mean	Numeric	See above comments
+f.BodyBodyGyroJerkMag meanFreq	Numeric	See above comments
+angle tBodyAccMean gravity	Numeric	See above comments
+angle tBodyAccJerkMean  gravityMean	Numeric	See above comments
+angle tBodyGyroMean gravityMean	Numeric	See above comments
+angle tBodyGyroJerkMean gravityMean	Numeric	See above comments
+angle X gravityMean	Numeric	See above comments
+angle Y gravityMean	Numeric	See above comments
+angle Z gravityMean	Numeric	See above comments
+t.BodyAcc std X	Numeric	See above comments
+t.BodyAcc std Y	Numeric	See above comments
+t.BodyAcc std Z	Numeric	See above comments
+t.GravityAcc std X	Numeric	See above comments
+t.GravityAcc std Y	Numeric	See above comments
+t.GravityAcc std Z	Numeric	See above comments
+t.BodyAccJerk std X	Numeric	See above comments
+t.BodyAccJerk std Y	Numeric	See above comments
+t.BodyAccJerk std Z	Numeric	See above comments
+t.BodyGyro std X	Numeric	See above comments
+t.BodyGyro std Y	Numeric	See above comments
+t.BodyGyro std Z	Numeric	See above comments
+t.BodyGyroJerk std X	Numeric	See above comments
+t.BodyGyroJerk std Y	Numeric	See above comments
+t.BodyGyroJerk std Z	Numeric	See above comments
+t.BodyAccMag std	Numeric	See above comments
+t.GravityAccMag std	Numeric	See above comments
+t.BodyAccJerkMag std	Numeric	See above comments
+t.BodyGyroMag std	Numeric	See above comments
+t.BodyGyroJerkMag std	Numeric	See above comments
+f.BodyAcc std X	Numeric	See above comments
+f.BodyAcc std Y	Numeric	See above comments
+f.BodyAcc std Z	Numeric	See above comments
+f.BodyAccJerk std X	Numeric	See above comments
+f.BodyAccJerk std Y	Numeric	See above comments
+f.BodyAccJerk std Z	Numeric	See above comments
+f.BodyGyro std X	Numeric	See above comments
+f.BodyGyro std Y	Numeric	See above comments
+f.BodyGyro std Z	Numeric	See above comments
+f.BodyAccMag std	Numeric	See above comments
+f.BodyBodyAccJerkMag std	Numeric	See above comments
+f.BodyBodyGyroMag std	Numeric	See above comments
+f.BodyBodyGyroJerkMag std	Numeric	See above comments
